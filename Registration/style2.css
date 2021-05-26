@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+  }
+  .bg{
+    animation: animateBg 10s linear infinite;
+    background-image: linear-gradient(0deg,#e7bbe9,#c14a68,#c2a5b2,#964aee,#ec4291,#64b3d9,#208ea2,#498ada,#5b73df,#897ed3,#cf5c5c,#e9a46c);
+    background-size: 100% 1100%;
+    height: 100vh;
+    width: 100vw;
+  }
+  @keyframes animateBg {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 0% 100%; }
+  }
+
+h1{
+    color:white;
+    text-align:center;
+    font-size:60px;
+    font-family: 'Sofia', sans-serif;
+    margin-bottom: 0%;
+    font-weight: bolder;
+  
+  }
+  .warp{
+    margin: auto;
+    background: rgb(245, 245, 245,0.3);
+    color: #000;
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.502);
+    min-height:500px;
+    width:100%;
+    max-width:500px;
+    border-radius:3px;
+    overflow:hidden;
+    text-align: center;
+  }
+  p{
+    margin:5%;
+  }
+      
+  
+  label{
+    font-family: 'Sofia', sans-serif;
+    margin-right: 4%;
+    width: 200px;
+    display: inline-block;
+    padding: 10px;
+  }
+  span{
+    width: 200px;
+    display: inline-block;
+    color:rgb(126, 22, 112);
+
+    
+  }
